@@ -9,7 +9,7 @@
     <canvas id="webgl" width="400" height="400">
         Please use a browser that supports "canvas"
     </canvas>
-    <p id="numdot"> test </p>
+    <p id="numdot"> xxx </p>
     Neck <input type="range" min="-60" max="5" value="0" class="slider" id="neckSlide">
     Animation:
       <button type="button" id="animationneckOnButton">ON</button></button>
@@ -42,13 +42,13 @@
     Camera Angles <input type="range" min="-180" max="180" value="45" class="slider" id="angleSlide">
                  <input type="range" min="-180" max="180" value="-10" class="slider" id="vertSlide">
       
-    <script src="/lib/webgl-utils.js"></script>
-    <script src="/lib/webgl-debug.js"></script>
-    <script src="/lib/cuon-utils.js"></script>
-    <script src="/lib/cuon-matrix-cse160.js"></script>
-    <script src="/src/Triangle.js"></script>
-    <script src="/src/Tetrahedron.js"></script>
-    <script src="/src/Cube.js"></script>
-    <script src="/src/BlockyAnimal.js"></script>
+                 <script src="lib/cuon-matrix-cse160.js"></script>
+                 <script src="lib/webgl-debug.js"></script>
+                 <script src="lib/cuon-utils.js"></script>
+                 <script src="lib/webgl-utils.js"></script> <!-- this was missing -->
+                 <script src="src/Triangle.js"></script>
+                 <script src="src/Tetrahedron.js"></script>
+                 <script src="src/Cube.js"></script>
+                 <script src="src/BlockyAnimal.js"></script>
   </body>
 </html>
