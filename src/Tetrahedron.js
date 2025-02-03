@@ -28,7 +28,7 @@ class Tetrahedron {
         // Face 3 (v0, v3, v1)
         drawTriangle3D([...v0, ...v3, ...v1]);
         // Base face (v1, v3, v2)
-        gl.uniform4f(u_FragColor, rgba[0]*.8, rgba[1]*.8, rgba[2]*.8, rgba[3]); // Darker color for the base
+        gl.uniform4f(u_FragColor, rgba[0] * .8, rgba[1] * .8, rgba[2] * .8, rgba[3]); // Darker color for the base
         drawTriangle3D([...v1, ...v3, ...v2]);
     }
 }
